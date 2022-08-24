@@ -48,7 +48,17 @@ const Content = () => {
                                     <h4 className={s.price__title}>
                                         {item.price}
                                     </h4>
-                                    <img className={s.img__zvezda} width='24px' height='23px' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAL0SURBVHgBlVVNXtpAFH8zEsuSHqAl81O0O+kJGjYV3RRPID1B6wnEE5SeADwBdKO0XRhPIO4s2l9CF91qdxHIvL4hk0AkCfg28/He/N+b98lgBXKqbyxaTA6yqM4S+JAWV/Ru7GVvWQaoydH/JDmrA0IhRcxlgDbC+ET0XHdlBU51q0HLMTyDJMDJRm/QyFTgWGaB5V90ENCa3aLNGe9KJi9fwORe3TxC7iUhlunxIQKLyYI3PhC2+5CsYLd0BYyV9dHNMVl/dX53CRn0Z3/7gy+xSVszVCJ6t5WQzyNw5ZYQHLEP3ujtMnBFr89+fSOYCpna1zZbw93Sl9gPVEDJi05oOcCokhS0IJsmIHp39gKvZhbAW7+a/WQkFAYPtMgooIaEWlpGkBEtkk4Mvugqv8uPM8uNqRzTmu+D67j/4taX6iTe0ooqSb9Q5FZLF9PAIz7A41jkwMuXp0kGKiCsHQOlrALDMHmOv5OIn2cc3hrubTclsmvwvP581iCsnRKeRfEsQD5XznGGOxK1XT5eR+B7WzWS7kzvEZ8aatJdU8FBfh2c9xsH4sfvrubZkRnIdjh9JapS8fO2H+3PB11g8giWEf1sDpwS4MaNePQLnvVWnN81qf800iVkQ3y//QoZRG5nkf/+7oviAkR+kg7gLfKc/VI5OlCguUQ/8vtYGtYCyMgwIY2MBB61kHDLOfY55Cd9StqHgIf1hQfINAja1DosWlWuu1OANbbzVJwBPwytV52AqwKhSLc123Kqm1bshe+DAlb1oR7Q2ha9gVCKpPT/zYuqzIsaJYNusMDqrSKLNMYFJLUKlVq0aWhZE9DoOFXTfBY4+p0ZOGWXNjDWrqMy10eltNgbnC4Bt4IepcHJNVRDByE/Pg+oL7HH9RYVbm1eL2csaAs6uApMdQAl92Q4tWngHKUOnJCG1c1jGuwNWJVUFkpMLLrMoQ9BG7cg8m0CMMqmKrh5q+MiK5CqzjXgRZRYnlY+5bjkeC3OZr0rjf4DLZZzxbHa7e0AAAAASUVORK5CYII=" alt="zvezda_orange" />
+                                    <svg className={s.img__zvezda} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_7_336)">
+                                            <path fillRule="evenodd" clipRule="evenodd" d="M0.445496 11.9817C0.445496 5.63406 5.62645 0.504196 11.9977 0.504196C18.3689 0.504196 23.55 5.63406 23.55 11.9817C23.55 18.3295 18.3689 23.4594 11.9977 23.4594C5.62645 23.4594 0.445496 18.3295 0.445496 11.9817ZM11.9977 3.07135C7.02658 3.07135 3.01265 7.06947 3.01265 11.9817C3.01265 16.8941 7.02658 20.8922 11.9977 20.8922C16.9689 20.8922 20.9828 16.8941 20.9828 11.9817C20.9828 7.06947 16.9689 3.07135 11.9977 3.07135Z" fill="#DF4826" />
+                                            <path d="M11.9989 6.03951L13.8368 9.47475L17.6958 10.1484L14.9727 12.9452L15.5198 16.7968L11.9989 15.0901L8.4781 16.7968L9.02516 12.9452L6.30206 10.1484L10.161 9.47475L11.9989 6.03951Z" fill="#DF4826" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_7_336">
+                                                <rect width="23.1345" height="23" fill="white" transform="translate(0.432739 0.5)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
                                 </div>
                             </div>
                         </div>)

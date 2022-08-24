@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-mobile-version-test/static/css/main.c73da024.css",
-    "main.js": "/react-mobile-version-test/static/js/main.b4b7aec9.js",
+    "main.js": "/react-mobile-version-test/static/js/main.5147349e.js",
     "static/js/787.42b157f3.chunk.js": "/react-mobile-version-test/static/js/787.42b157f3.chunk.js",
     "static/media/try_clother.svg": "/react-mobile-version-test/static/media/try_clother.283037bb388786fb2e2c.svg",
     "static/media/try_clother.eot": "/react-mobile-version-test/static/media/try_clother.b894a17c5346d44212cf.eot",
@@ -10,11 +10,11 @@
     "static/media/try_clother.woff2": "/react-mobile-version-test/static/media/try_clother.97005e814ff7c7623018.woff2",
     "index.html": "/react-mobile-version-test/index.html",
     "main.c73da024.css.map": "/react-mobile-version-test/static/css/main.c73da024.css.map",
-    "main.b4b7aec9.js.map": "/react-mobile-version-test/static/js/main.b4b7aec9.js.map",
+    "main.5147349e.js.map": "/react-mobile-version-test/static/js/main.5147349e.js.map",
     "787.42b157f3.chunk.js.map": "/react-mobile-version-test/static/js/787.42b157f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c73da024.css",
-    "static/js/main.b4b7aec9.js"
+    "static/js/main.5147349e.js"
   ]
 }

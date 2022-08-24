@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'TRY Clother';
+  src: url('../public/fonts/try_clother.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('../public//fonts/try_clother.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('../public//fonts/try_clother.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../public//fonts/try_clother.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('../public//fonts/try_clother.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../public//fonts/try_clother.svg#try_clother') format('svg');
+  /* Chrome < 4, Legacy iOS */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@media (max-width: 640px) {
+  body {
+    color: #FFFFFF;
+    font-family: 'TRY Clother';
+    margin: 0 auto;
+    width: 414px;
+    background-color: black;
+  }
 }

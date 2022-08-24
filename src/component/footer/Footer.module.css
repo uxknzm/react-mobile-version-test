@@ -1,0 +1,36 @@
+@media (max-width: 640px) {
+	.footer__wrapper {
+		width: 414px;
+		height: 82px;
+		background-color: white;
+		box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.1)
+	}
+
+	.footer__icon {
+		text-align: center;
+		transform: translateY(-20%);
+	}
+
+
+	.footer__a {
+		position: relative;
+		text-decoration: none;
+	}
+
+	.footer__a::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 66px;
+		height: 2px;
+		background-color: #FF7431;
+	}
+
+	.footer__a:hover:before {
+		width: 68px;
+	}
+
+	.footer__icon a:not(:last-child) {
+		padding-right: 12px;
+	}
+}

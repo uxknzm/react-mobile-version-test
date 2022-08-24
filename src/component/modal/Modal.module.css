@@ -1,0 +1,39 @@
+@media (max-width: 640px) {
+    .conteiner__menu {
+        background-color: white;
+    }
+
+
+    .navbar {
+        padding-left: 30px;
+        padding-right: 27px;
+        padding-top: 7px;
+        padding-bottom: 9px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar img {
+        cursor: pointer;
+    }
+
+    .content__menu {
+        padding-left: 50px;
+        padding-top: 40px;
+        padding-bottom: 488px;
+    }
+
+    .content__menu a {
+        font-size: 28px;
+        line-height: 140%;
+        color: #252424;
+        text-decoration: none;
+    }
+
+    .content__menu h4 {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+}

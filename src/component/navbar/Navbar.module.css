@@ -1,0 +1,21 @@
+@media (max-width: 640px) {
+    .wrapper {
+        width: 414px;
+        background-color: #252424;
+    }
+
+    .navbar {
+        padding-left: 30px;
+        padding-right: 27px;
+        padding-top: 7px;
+        padding-bottom: 9px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar img {
+        cursor: pointer;
+    }
+}

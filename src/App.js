@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import s from './App.module.css'
+import Content from './component/content/Content';
+import Footer from './component/footer/Footer';
+import Header from './component/header/Header';
+import Modal from './component/modal/Modal';
+import Navbar from './component/navbar/Navbar';
+
 
 function App() {
+  const [active, setActive] = React.useState(false)
+    const activeMenu = () => setActive(true)
+    const closeMenu = () => setActive(false)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    { active ? <Modal closeMenu={closeMenu} /> : (
+      <>
+      <div className={s.conteiner}>
+      <Navbar activeMenu={activeMenu} />
+      <Header />
+      <Content />
+      <Footer />
     </div>
+    
+    </>
+    ) }
+    </>
   );
 }
 

@@ -1,0 +1,49 @@
+@media (max-width: 640px) {
+    .title {
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 38px;
+    }
+
+    .wrapper {
+        background-color: #252424;
+    }
+
+    p {
+        color: #BEBBB9;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+    .content__header {
+        padding-left: 30px;
+        padding-bottom: 53px;
+    }
+
+    .orange {
+        position: absolute;
+        margin: 0 30px 0 30px;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 354px;
+    z-index:99;
+        background-color: #DF4826;
+    }
+
+    h2 {
+        margin-top: 23px;
+        margin-bottom: 23px;
+        padding-right: 5px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+    }
+
+    .img__zvezda {
+        margin-top: 4px;
+    }
+}
